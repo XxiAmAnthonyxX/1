@@ -32,32 +32,7 @@ sudo nvim /etc/mkinitcpio.conf
 sudo mkinitcpio -P
 
 #PACKAGES
-yay -S 
-
-hyprland xdg-desktop-portal-hyprland polkit-kde-agent 
-
-bottles gamemode 
-firefox python-pywalfox 
-spotify spicetify-cli 
-
-kitty fastfetch fish starship 
-btop
-yazi nsxiv udiskie 
-jrnl
-
-mpv mpv-mpris ani-cli mov-cli 
-
-wofi cliphist wl-clip-persist 
-
-swaylock-effects 
-
-swww pywal-16-colors themix-theme-oomox-git
-
-ttf-iosevka-nerd bibata-cursor-theme 
-
-pulseaudio-nextsink brightnessctl playerctl
-
-grimblast-git wf-recorder
+yay -S hyprland xdg-desktop-portal-hyprland polkit-kde-agent bottles gamemode firefox python-pywalfox spotify spicetify-cli kitty fastfetch fish starship btop yazi nsxiv udiskie jrnl mpv mpv-mpris ani-cli mov-cli wofi cliphist wl-clip-persist swaylock-effects swww pywal-16-colors themix-theme-oomox-git ttf-iosevka-nerd bibata-cursor-theme pulseaudio-nextsink brightnessctl playerctl grimblast-git wf-recorder
 
 #DIRECTORIES
 mkdir ~/recordings
@@ -101,13 +76,3 @@ mkdir ~/screenshots/active
 
 #REBOOT
 sudo reboot
-
-
-
-
-
-#calendar
-#calculator
-#clock
-#maps
-#weather
