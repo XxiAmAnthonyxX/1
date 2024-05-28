@@ -63,6 +63,9 @@ mkdir ~/screenshots/active
 #cp -r ~/1/wallpapers ~/.config
 #cp -r ~/1/yazi ~/.config
 
+gsettings set org.gnome.desktop.interface cursor-theme Bibata-Modern-Classic
+gsettings set org.gnome.desktop.interface font-name 'Iosevka Nerd Font'
+
 #SCRIPTS
 #cd ~/.config/hypr/scripts
 #sudo chmod +x theme.sh volume_spotify_down.py volume_spotify_up.py volume_firefox_down.py volume_firefox_up.py volume_mpv_up.py volume_mpv_down.py windows.sh
