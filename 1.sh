@@ -63,8 +63,8 @@ mkdir ~/screenshots/active
 #cp -r ~/1/wallpapers ~/.config
 #cp -r ~/1/yazi ~/.config
 
-gsettings set org.gnome.desktop.interface cursor-theme Bibata-Modern-Classic
-gsettings set org.gnome.desktop.interface font-name 'Iosevka Nerd Font'
+#gsettings set org.gnome.desktop.interface cursor-theme Bibata-Modern-Classic
+#gsettings set org.gnome.desktop.interface font-name 'Iosevka Nerd Font'
 
 #SCRIPTS
 #cd ~/.config/hypr/scripts
