@@ -4,7 +4,7 @@ sudo pacman -S neovim reflector git ufw sddm
 
 # PACMAN
 sudo pacman -Syu
-sudo nvim /etc/pacman.conf
+sudo cp -r ~/1/pacman/pacman.conf /etc/pacman.conf
 sudo reflector --latest 15 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 sudo pacman -Sy
 
@@ -20,7 +20,6 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 # SDDM
 sudo nvim /usr/lib/sddm/sddm.conf.d/default.conf
 sudo systemctl enable sddm.service
-sudo systemctl start sddm.service
 
 # UFW
 sudo systemctl enable ufw.service
