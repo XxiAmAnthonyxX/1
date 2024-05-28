@@ -14,11 +14,11 @@ cd yay
 makepkg -si
 
 # GRUB
-sudo nvim /etc/default/grub
+sudo cp -r ~/1/grub/grub /etc/default/grub
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 # SDDM
-sudo nvim /usr/lib/sddm/sddm.conf.d/default.conf
+sudo cp -r ~/1/sddm/default.conf /usr/lib/sddm/sddm.conf.d/default.conf
 sudo systemctl enable sddm.service
 
 # UFW
@@ -27,7 +27,7 @@ sudo systemctl start ufw.service
 
 # NVIDIA
 yay -S linux-headers nvidia nvidia-utils lib32-nvidia-utils
-sudo nvim /etc/mkinitcpio.conf
+sudo cp -r ~/1/mkinitcpio/mkinitcpio.conf /etc/mkinitcpio.conf
 sudo mkinitcpio -P
 
 #PACKAGES
