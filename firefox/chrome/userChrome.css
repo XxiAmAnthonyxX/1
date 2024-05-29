@@ -97,7 +97,7 @@ panelmultiview {
 /* Just comment the lines or block for the elements you WANT to see */
 
 /* Menu button */
-#PanelUI-button {
+PanelUI-button {
   -moz-box-ordinal-group: 0 !important;
   order: -2 !important;
   margin: 2px !important;
@@ -111,14 +111,14 @@ panelmultiview {
 }
 
 /* Page back and foward buttons */
-#back-button,
-#forward-button
+back-button,
+forward-button
 {
   display: none !important
 }
 
 /* Extensions button */
-#unified-extensions-button {
+unified-extensions-button {
   display: none !important
 }
 
@@ -142,8 +142,23 @@ panelmultiview {
 
 /* "This time search with:..." */
 #urlbar .search-one-offs {
-  display: none !important
+  display: none !important;
 }
+
+
+
+
+
+.tabbrowser-tab[label="New Tab"] .tab-icon-image {display:none!important;}
+
+#PersonalToolbar {
+  visibility: collapse !important;
+}
+
+#browser.tabs.firefox-view {
+  display: none !important; 
+}
+
 
 /* --- ~END~ element visibility section --- */
 
