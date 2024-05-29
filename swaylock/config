@@ -1,0 +1,40 @@
+clock
+indicator
+indicator-radius=200
+indicator-thickness=20
+image=~/.cache/current_wallpaper.png
+effect-blur=15x15
+font=Iosevka Nerd Font
+
+color=#0D1419
+key-hl-color=#669599
+separator-color=00000000
+bs-hl-color=31748f
+
+line-clear-color=#0D1419
+line-wrong-color=#0D1419
+line-ver-color=#669599
+line-color=#0D1419
+
+inside-color=#0D1419
+inside-ver-color=#0D1419
+inside-wrong-color=#0D1419
+inside-clear-color=#0D1419
+
+ring-color=#988277
+ring-ver-color=#669599
+ring-wrong-color=31748f
+ring-clear-color=9ccfd8
+
+text-color=#A79C99
+text-caps-lock-color=""
+text-ver-color=#A79C99
+text-wrong-color=31748f
+text-clear-color=#A79C99
+
+grace=0
+grace-no-mouse
+grace-no-touch
+datestr=%a, %B %e
+timestr=%I:%M %p
+ignore-empty-password
