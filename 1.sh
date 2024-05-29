@@ -63,6 +63,8 @@ mkdir ~/screenshots/active
 #cp -r ~/1/wallpapers ~/.config
 #cp -r ~/1/yazi ~/.config
 
+pactl set-sink-volume @DEFAULT_SINK@ 100%
+
 #gsettings set org.gnome.desktop.interface cursor-theme Bibata-Modern-Classic
 #gsettings set org.gnome.desktop.interface font-name 'Iosevka Nerd Font'
 
