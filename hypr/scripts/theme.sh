@@ -3,7 +3,7 @@
 wallpaper=$(ls -1 ~/.config/wallpapers | grep ".png" | wofi --dmenu)
 
 # GENERATE COLOR SCHEME
-wal -n -e --cols16 -q -i ~/.config/wallpapers/$wallpaper
+wal -i ~/.config/wallpapers/$wallpaper
 
 # SET BACKGROUND
 swww init
@@ -19,6 +19,9 @@ spicetify -q watch -s & disown
 
 # FIREFOX
 pywalfox update
+cp -r ~/.cache/wal/colors-config.json ~/.config/darkdreader
+cd ~/.config/darkdreader
+mv colors-config.json config.json
 
 # SWAYLOCK
 cp -r ~/.config/wallpapers/$wallpaper ~/.cache/current_wallpaper.png
