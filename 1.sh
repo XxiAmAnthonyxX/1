@@ -64,13 +64,13 @@ mkdir ~/screenshots/active
 #cp -r ~/1/yazi ~/.config
 
 pactl set-sink-volume @DEFAULT_SINK@ 100%
+gsettings set org.gnome.desktop.interface gtk-theme "oomox"
+gsettings set org.gnome.desktop.interface cursor-theme Bibata-Modern-Classic
+gsettings set org.gnome.desktop.interface font-name 'Iosevka Nerd Font'
 
-#gsettings set org.gnome.desktop.interface cursor-theme Bibata-Modern-Classic
-#gsettings set org.gnome.desktop.interface font-name 'Iosevka Nerd Font'
-
-#SCRIPTS
-#cd ~/.config/hypr/scripts
-#sudo chmod +x theme.sh volume_spotify_down.py volume_spotify_up.py volume_firefox_down.py volume_firefox_up.py volume_mpv_up.py volume_mpv_down.py windows.sh
+SCRIPTS
+cd ~/.config/hypr/scripts
+sudo chmod +x theme.sh volume_spotify_down.py volume_spotify_up.py volume_firefox_down.py volume_firefox_up.py volume_mpv_up.py volume_mpv_down.py windows.sh
 
 #SPOTIFY
 #sudo chmod a+wr /opt/spotify
