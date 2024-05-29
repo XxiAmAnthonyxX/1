@@ -63,6 +63,12 @@ mkdir ~/screenshots/active
 #cp -r ~/1/wallpapers ~/.config
 #cp -r ~/1/yazi ~/.config
 
+#SPOTIFY
+#sudo chmod a+wr /opt/spotify
+#sudo chmod a+wr /opt/spotify/Apps -R
+#spicetify backup apply
+#spicetify apply
+
 # VOLUME
 pactl set-sink-volume @DEFAULT_SINK@ 100%
 
@@ -74,12 +80,6 @@ gsettings set org.gnome.desktop.interface font-name 'Iosevka Nerd Font'
 # SCRIPTS
 cd ~/.config/hypr/scripts
 sudo chmod +x theme.sh volume_spotify_down.py volume_spotify_up.py volume_firefox_down.py volume_firefox_up.py volume_mpv_up.py volume_mpv_down.py windows.sh
-
-#SPOTIFY
-#sudo chmod a+wr /opt/spotify
-#sudo chmod a+wr /opt/spotify/Apps -R
-#spicetify backup apply
-#spicetify apply
 
 #REBOOT
 sudo reboot
