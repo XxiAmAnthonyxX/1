@@ -64,8 +64,8 @@ mkdir ~/screenshots/active
 #cp -r ~/1/yazi ~/.config
 
 #SPOTIFY
-#sudo chmod a+wr /opt/spotify
-#sudo chmod a+wr /opt/spotify/Apps -R
+sudo chmod a+wr /opt/spotify
+sudo chmod a+wr /opt/spotify/Apps -R
 #spicetify backup apply
 #spicetify apply
 
