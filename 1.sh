@@ -34,13 +34,13 @@ sudo mkinitcpio -P
 yay -S hyprland xdg-desktop-portal-hyprland polkit-kde-agent bottles wine gamemode lib32-vulkan-intel google-chrome firefox python-pywalfox spotify spicetify-cli kitty fastfetch fish starship btop yazi nsxiv udiskie jrnl mpv mpv-mpris ani-cli wofi cliphist wl-clip-persist swaylock-effects swww python-pywal themix-theme-oomox-git ttf-iosevka-nerd bibata-cursor-theme pulseaudio-nextsink brightnessctl playerctl grimblast-git wf-recorder
 
 #DIRECTORIES
-mkdir ~/recordings
-mkdir ~/screenshots
-mkdir ~/recordings/area
-mkdir ~/recordings/full
-mkdir ~/screenshots/area
-mkdir ~/screenshots/full
-mkdir ~/screenshots/active
+#mkdir ~/recordings
+#mkdir ~/screenshots
+#mkdir ~/recordings/area
+#mkdir ~/recordings/full
+#mkdir ~/screenshots/area
+#mkdir ~/screenshots/full
+#mkdir ~/screenshots/active
 
 #CONFIGS
 #cp -r ~/1/btop ~/.config
@@ -64,22 +64,22 @@ mkdir ~/screenshots/active
 #cp -r ~/1/yazi ~/.config
 
 #SPOTIFY
-sudo chmod a+wr /opt/spotify
-sudo chmod a+wr /opt/spotify/Apps -R
+#sudo chmod a+wr /opt/spotify
+#sudo chmod a+wr /opt/spotify/Apps -R
 #spicetify backup apply
 #spicetify apply
 
 # VOLUME
-pactl set-sink-volume @DEFAULT_SINK@ 100%
+#pactl set-sink-volume @DEFAULT_SINK@ 100%
 
 # GTK
-gsettings set org.gnome.desktop.interface gtk-theme "oomox"
-gsettings set org.gnome.desktop.interface cursor-theme Bibata-Modern-Classic
-gsettings set org.gnome.desktop.interface font-name 'Iosevka Nerd Font'
+#gsettings set org.gnome.desktop.interface gtk-theme "oomox"
+#gsettings set org.gnome.desktop.interface cursor-theme Bibata-Modern-Classic
+#gsettings set org.gnome.desktop.interface font-name 'Iosevka Nerd Font'
 
 # SCRIPTS
-cd ~/.config/hypr/scripts
-sudo chmod +x theme.sh volume_spotify_down.py volume_spotify_up.py volume_firefox_down.py volume_firefox_up.py volume_mpv_up.py volume_mpv_down.py windows.sh
+#cd ~/.config/hypr/scripts
+#sudo chmod +x theme.sh volume_spotify_down.py volume_spotify_up.py volume_firefox_down.py volume_firefox_up.py volume_mpv_up.py volume_mpv_down.py windows.sh
 
 #REBOOT
 sudo reboot
