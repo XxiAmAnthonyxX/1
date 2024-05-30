@@ -4,7 +4,8 @@ sudo pacman -S neovim reflector git ufw sddm
 
 # PACMAN
 sudo pacman -Syu
-sudo cp -r ~/1/pacman/pacman.conf /etc/pacman.conf
+sudo nvim /etc/pacman.conf
+#sudo cp -r ~/1/pacman/pacman.conf /etc/pacman.conf
 sudo reflector --latest 15 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 sudo pacman -Sy
 
@@ -14,11 +15,13 @@ cd yay
 makepkg -si
 
 # GRUB
-sudo cp -r ~/1/grub/grub /etc/default/grub
+sudo nvim /etc/default/grub
+#sudo cp -r ~/1/grub/grub /etc/default/grub
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 # SDDM
-sudo cp -r ~/1/sddm/default.conf /usr/lib/sddm/sddm.conf.d/default.conf
+sudo nvim /usr/lib/sddm/sddm.conf.d/default.conf
+#sudo cp -r ~/1/sddm/default.conf /usr/lib/sddm/sddm.conf.d/default.conf
 sudo systemctl enable sddm.service
 
 # UFW
@@ -26,12 +29,12 @@ sudo systemctl enable ufw.service
 sudo systemctl start ufw.service
 
 # NVIDIA
-yay -S linux-headers nvidia nvidia-utils lib32-nvidia-utils
-sudo cp -r ~/1/mkinitcpio/mkinitcpio.conf /etc/mkinitcpio.conf
-sudo mkinitcpio -P
+#yay -S linux-headers nvidia nvidia-utils lib32-nvidia-utils
+#sudo cp -r ~/1/mkinitcpio/mkinitcpio.conf /etc/mkinitcpio.conf
+#sudo mkinitcpio -P
 
 #PACKAGES
-yay -S hyprland xdg-desktop-portal-hyprland polkit-kde-agent bottles wine gamemode lib32-vulkan-intel google-chrome firefox python-pywalfox spotify spicetify-cli kitty fastfetch fish starship btop yazi nsxiv udiskie jrnl mpv mpv-mpris ani-cli wofi cliphist wl-clip-persist swaylock-effects swww python-pywal themix-theme-oomox-git ttf-iosevka-nerd bibata-cursor-theme pulseaudio-nextsink brightnessctl playerctl grimblast-git wf-recorder
+#yay -S hyprland xdg-desktop-portal-hyprland polkit-kde-agent bottles wine gamemode lib32-vulkan-intel google-chrome firefox python-pywalfox spotify spicetify-cli kitty fastfetch fish starship btop yazi nsxiv udiskie jrnl mpv mpv-mpris ani-cli wofi cliphist wl-clip-persist swaylock-effects swww python-pywal themix-theme-oomox-git ttf-iosevka-nerd bibata-cursor-theme pulseaudio-nextsink brightnessctl playerctl grimblast-git wf-recorder
 
 #DIRECTORIES
 #mkdir ~/recordings
