@@ -34,7 +34,7 @@ sudo systemctl start ufw.service
 #sudo mkinitcpio -P
 
 #PACKAGES
-#yay -S hyprland xdg-desktop-portal-hyprland polkit-kde-agent bottles wine gamemode lib32-vulkan-intel google-chrome firefox python-pywalfox spotify spicetify-cli kitty fastfetch fish starship btop yazi nsxiv udiskie jrnl mpv mpv-mpris ani-cli wofi cliphist wl-clip-persist swaylock-effects swww python-pywal themix-theme-oomox-git ttf-iosevka-nerd bibata-cursor-theme pulseaudio-nextsink brightnessctl playerctl grimblast-git wf-recorder
+#yay -S hyprland-git xdg-desktop-portal-hyprland polkit-kde-agent bottles wine gamemode lib32-vulkan-intel google-chrome firefox python-pywalfox spotify spicetify-cli kitty fastfetch fish starship btop yazi nsxiv udiskie jrnl mpv mpv-mpris ani-cli wofi cliphist wl-clip-persist swaylock-effects swww python-pywal themix-theme-oomox-git ttf-iosevka-nerd bibata-cursor-theme pulseaudio-nextsink brightnessctl playerctl grimblast-git wf-recorder
 
 #DIRECTORIES
 #mkdir ~/recordings
