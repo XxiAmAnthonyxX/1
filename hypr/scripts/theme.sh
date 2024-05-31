@@ -19,9 +19,6 @@ spicetify -q watch -s & disown
 
 # FIREFOX
 pywalfox update
-cp -r ~/.cache/wal/colors-config.json ~/.config/darkdreader
-cd ~/.config/darkdreader
-mv colors-config.json config.json
 
 # SWAYLOCK
 cp -r ~/.config/wallpapers/$wallpaper ~/.cache/current_wallpaper.png
