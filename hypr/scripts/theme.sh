@@ -6,7 +6,6 @@ wallpaper=$(ls -1 ~/.config/wallpapers | grep ".png" | wofi --dmenu)
 wal -i ~/.config/wallpapers/$wallpaper
 
 # SET BACKGROUND
-swww init
 swww img ~/.config/wallpapers/$wallpaper
 rm -rf ~/.cache/swww
 
