@@ -61,7 +61,6 @@ cp -r ~/1/spicetify/config-xpui.ini ~/.config/spicetify
 cp -r ~/1/swaylock ~/.config
 cp -r ~/1/wal ~/.config
 cp -r ~/1/wallpapers ~/.config
-cp -r ~/1/yazi ~/.config
 
 #SPOTIFY
 sudo chmod a+wr /opt/spotify
