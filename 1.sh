@@ -40,7 +40,7 @@ spotify spicetify-cli
 kitty fastfetch fish starship 
 btop 
 nsxiv 
-mpv mpv-mpris ani-cli 
+mpv ani-cli 
 wofi 
 cliphist wl-clip-persist 
 swaylock-effects 
