@@ -32,7 +32,7 @@ sudo mkinitcpio -P
 
 #PACKAGES
 yay -S 
-hyprland-git xdg-desktop-portal-hyprland polkit-kde-agent udiskie
+hyprland xdg-desktop-portal-hyprland polkit-kde-agent udiskie
 bottles wine gamemode lib32-vulkan-intel 
 google-chrome 
 firefox python-pywalfox 
