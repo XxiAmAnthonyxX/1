@@ -44,7 +44,8 @@ mpv ani-cli
 wofi 
 cliphist wl-clip-persist 
 swaylock-effects 
-swww python-pywal themix-theme-oomox-git ttf-iosevka-nerd bibata-cursor-theme 
+swww python-pywal 
+themix-theme-oomox-git ttf-iosevka-nerd bibata-cursor-theme 
 pulseaudio-nextsink playerctl 
 grimblast-git wf-recorder
 
