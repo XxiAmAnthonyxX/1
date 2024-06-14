@@ -41,7 +41,8 @@ kitty fastfetch fish starship
 btop 
 nsxiv 
 mpv mpv-mpris ani-cli 
-wofi cliphist wl-clip-persist 
+wofi 
+cliphist wl-clip-persist 
 swaylock-effects 
 swww python-pywal themix-theme-oomox-git ttf-iosevka-nerd bibata-cursor-theme 
 pulseaudio-nextsink playerctl 
